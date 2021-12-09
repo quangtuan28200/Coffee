@@ -1,0 +1,17 @@
+//initial
+@import "./variables";
+@import "./base";
+@import "./layout.scss";
+
+//components
+@import "./components/header.scss";
+@import "./components/banner.scss";
+@import "./components/video.scss";
+@import "./components/gallery.scss";
+@import "./components/review.scss";
+@import "./components/blog.scss";
+@import "./components/footer.scss";
+
+//responsive
+@import "./responsive.scss";
+
