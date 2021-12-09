@@ -13,40 +13,239 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!-- CSS -->
     <link rel="stylesheet" href="./assets/css/reset.css">
-    <link rel="stylesheet" href="./assets/scss/style.css">
+    <link rel="stylesheet" href="./assets/scss/style.scss">
 </head>
 <body>
     <div class="wrapper">
-        <header>
+        <header id="header">
             <div class="header-top">
-
+                <div class="container">
+                    <div class="row justify-content-end">
+                        <ul>
+                            <li>Mon-Fri: 8am to 2pm</li>
+                            <li>Sat-Sun: 11am to 4pm</li>
+                            <a href="tel:(012) 6985 236 7512">(012) 6985 236 7512</a>
+                        </ul>
+                    </div>
+                </div>
             </div>
             <div class="container">
-                
+                <div class="row align-item-center justify-content-between">
+                    <div class="logo">
+                        <a href="#home">
+                            <img src="./assets/imgs/logo.webp" alt="logo">
+                        </a>
+                    </div>
+                    <nav class="header-nav">
+                        <ul>
+                            <li>
+                                <a href="#home">home</a>
+                            </li>
+                            <li>
+                                <a href="#about">about</a>
+                            </li>
+                            <li>
+                                <a href="#coffee">coffee</a>
+                            </li>
+                            <li>
+                                <a href="#review">review</a>
+                            </li>
+                            <li>
+                                <a href="#blog">blog</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
             </div>
         </header>
 
-        <section class="banner">
+        <section class="home-area" id="home">
+            <div class="container">
+                <div class="row align-item-center justify-content-start">
+                    <div class="home-content">
+                        <h6 class="text-white">Now you can feel the Energy</h6>
+                        <h1 class="text-white">
+                            Start your day with 
+                            <br>
+                            a black Coffee
+                        </h1>
+                        <a href="#" class="primary-btn text-uppercase">Buy Now</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="about-area" id="about">
+            <div class="container">
+                <div class="row align-item-center">
+                    <div class="about-left col l-6"></div>
+                    <div class="about-right col l-6">                    
+                        <h6>Live Coffee making process.</h6>
+                        <h1>
+                            We Telecast our 
+                            <br>
+                            Coffee Making Live
+                        </h1>
+                        <p><span>We are here to listen from you deliver exellence</span></p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod temp or incididunt ut labore et dolore magna aliqua. Ut enim ad minim.</p>
+                        <img class="about-sign" src="./assets/imgs/xsignature.png.pagespeed.ic.6xNGbi55sb.jpg" alt="sign">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="coffee">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="coffee-header">
+                        <h1>What kind of Coffee we serve for you</h1>
+                        <p>Who are in extremely love with eco friendly system.</p>              
+                    </div>
+                </div>
+
+                <div class="row"> 
+                    <div class="col l-4">
+                        <div class="coffee-menu">
+                            <div class="coffee-menuTitle justify-content-between display-flex">
+                                <h4>Cappuccino</h4>
+                                <p class="coffee-menuPrice">$49</p>
+                            </div>
+                            <p>Usage of the Internet is becoming more common due to rapid advance.</p>
+                        </div>
+                    </div>
+
+                    <div class="col l-4">
+                        <div class="coffee-menu">
+                            <div class="coffee-menuTitle justify-content-between display-flex">
+                                <h4>Americano</h4>
+                                <p class="coffee-menuPrice">$49</p>
+                            </div>
+                            <p>Usage of the Internet is becoming more common due to rapid advance.</p>
+                        </div>
+                    </div>
+
+                    <div class="col l-4">
+                        <div class="coffee-menu">
+                            <div class="coffee-menuTitle justify-content-between display-flex">
+                                <h4>Espresso</h4>
+                                <p class="coffee-menuPrice">$49</p>
+                            </div>
+                            <p>Usage of the Internet is becoming more common due to rapid advance.</p>
+                        </div>
+                    </div>
+
+                    <div class="col l-4">
+                        <div class="coffee-menu">
+                            <div class="coffee-menuTitle justify-content-between display-flex">
+                                <h4>Macchiato</h4>
+                                <p class="coffee-menuPrice">$49</p>
+                            </div>
+                            <p>Usage of the Internet is becoming more common due to rapid advance.</p>
+                        </div>
+                    </div>
+
+                    <div class="col l-4">
+                        <div class="coffee-menu">
+                            <div class="coffee-menuTitle justify-content-between display-flex">
+                                <h4>Mocha</h4>
+                                <p class="coffee-menuPrice">$49</p>
+                            </div>
+                            <p>Usage of the Internet is becoming more common due to rapid advance.</p>
+                        </div>
+                    </div>
+
+                    <div class="col l-4">
+                        <div class="coffee-menu">
+                            <div class="coffee-menuTitle justify-content-between display-flex">
+                                <h4>Coffee Latte</h4>
+                                <p class="coffee-menuPrice">$49</p>
+                            </div>
+                            <p>Usage of the Internet is becoming more common due to rapid advance.</p>
+                        </div>
+                    </div>
+
+                    <div class="col l-4">
+                        <div class="coffee-menu">
+                            <div class="coffee-menuTitle justify-content-between display-flex">
+                                <h4>Piccolo Latte</h4>
+                                <p class="coffee-menuPrice">$49</p>
+                            </div>
+                            <p>Usage of the Internet is becoming more common due to rapid advance.</p>
+                        </div>
+                    </div>
+
+                    <div class="col l-4">
+                        <div class="coffee-menu">
+                            <div class="coffee-menuTitle justify-content-between display-flex">
+                                <h4>Ristretto</h4>
+                                <p class="coffee-menuPrice">$49</p>
+                            </div>
+                            <p>Usage of the Internet is becoming more common due to rapid advance.</p>
+                        </div>
+                    </div>
+
+                    <div class="col l-4">
+                        <div class="coffee-menu">
+                            <div class="coffee-menuTitle justify-content-between display-flex">
+                                <h4>Affogato</h4>
+                                <p class="coffee-menuPrice">$49</p>
+                            </div>
+                            <p>Usage of the Internet is becoming more common due to rapid advance.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="gallery">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="gallery-header">
+                        <h1>What kind of Coffee we serve for you</h1>
+                        <p>Who are in extremely love with eco friendly system.</p>              
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col l-4">
+                        <a href="./assets/imgs/xg1.jpg.pagespeed.ic.hds6Doof4i.jpg" class="gallery-img">
+                            <img src="./assets/imgs/xg1.jpg.pagespeed.ic.hds6Doof4i.jpg" alt="xg1">
+                        </a>
+                        <a href="./assets/imgs/xg2.jpg.pagespeed.ic.xvAO4TQHTF.jpg" class="gallery-img">
+                            <img src="./assets/imgs/xg2.jpg.pagespeed.ic.xvAO4TQHTF.jpg" alt="xg2">      
+                        </a>
+                    </div>
+
+                    <div class="col l-8">
+                        <a href="./assets/imgs/xg3.jpg.pagespeed.ic.wWCJzlPGAr.jpg" class="gallery-img">
+                            <img src="./assets/imgs/xg3.jpg.pagespeed.ic.wWCJzlPGAr.jpg" alt="xg3">
+                        </a>
+                        <div class="row">
+                            <div class="col l-6">
+                                <a href="./assets/imgs/xg4.jpg.pagespeed.ic.CX0azipD2t.jpg" class="gallery-img">
+                                    <img src="./assets/imgs/xg4.jpg.pagespeed.ic.CX0azipD2t.jpg" alt="xg4">
+                                </a>
+                            </div>
+                            <div class="col l-6">
+                                <a href="./assets/imgs/xg5.jpg.pagespeed.ic.3JzoX_n_ys.jpg" class="gallery-img">
+                                    <img src="./assets/imgs/xg5.jpg.pagespeed.ic.3JzoX_n_ys.jpg" alt="xg5">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="review">
 
         </section>
 
-        <section class="video">
+        <section id="blog">
 
         </section>
 
-        <section class="gallery">
-
-        </section>
-
-        <section class="review">
-
-        </section>
-
-        <section class="blog">
-
-        </section>
-
-        <footer>
+        <footer id="footer">
 
         </footer>
     </div>
