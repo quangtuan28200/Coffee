@@ -1,4 +1,5 @@
 .container{
+    max-width: 1140px;
     width: 100%;
     padding: 0 15px;
     margin: 0 auto;
@@ -11,7 +12,12 @@
 }
 
 .col{
-    padding: 15px;
+    padding: 0 15px;
+}
+
+.l-3{
+    flex: 0 0 25%;
+    max-width: 25%;
 }
 
 .l-4{
@@ -51,4 +57,24 @@
 
 .justify-content-end{
     justify-content: end!important;
+}
+
+.section-gap{
+    padding: 12rem 0;
+}
+
+.text-center{
+    text-align: center!important;
+}
+
+.pb-60{
+    padding-bottom: 6rem;
+}
+
+.mb-10{
+    margin-bottom: 1rem;
+}
+
+.mt-100{
+    margin-top: 10rem;
 }

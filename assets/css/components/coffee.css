@@ -1,0 +1,12 @@
+.coffee-area {
+  background: url("../imgs/xmenu-bg.jpg.pagespeed.ic.xYr9qBvnG1.jpg") center;
+  background-size: cover; }
+
+.coffee-menu {
+  background-color: #fff;
+  box-shadow: 0 10px 30px 0 #b6883433;
+  border-radius: 10px;
+  padding: 30px 30px;
+  margin-bottom: 30px; }
+  .coffee-menuTitle {
+    padding-bottom: 2rem; }

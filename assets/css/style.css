@@ -1,0 +1,227 @@
+html {
+  font-size: 62.5%; }
+
+body {
+  font-size: 1.4rem;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 300;
+  color: #777;
+  line-height: 1.5;
+  -webkit-tap-highlight-color: transparent; }
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box; }
+
+img {
+  display: block;
+  max-width: 100%; }
+
+a {
+  text-decoration: none;
+  color: #777;
+  display: block; }
+
+h1, h4 {
+  color: #222;
+  font-weight: 600;
+  line-height: 1.2; }
+
+h1 {
+  font-size: 3.6rem; }
+
+h4 {
+  font-size: 1.8rem; }
+
+h6 {
+  font-weight: 300; }
+
+.text-white {
+  color: #fff !important; }
+
+.text-uppercase {
+  text-transform: uppercase !important; }
+
+.primary-btn {
+  display: inline-block;
+  background-color: #fff;
+  border: 1px solid transparent;
+  color: #222;
+  padding: 8px 40px;
+  border-radius: 50px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all .5s; }
+  .primary-btn:hover {
+    color: white;
+    border: 1px solid white;
+    background-color: transparent; }
+
+.container {
+  max-width: 1140px;
+  width: 100%;
+  padding: 0 15px;
+  margin: 0 auto; }
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 -15px; }
+
+.col {
+  padding: 0 15px; }
+
+.l-3 {
+  flex: 0 0 25%;
+  max-width: 25%; }
+
+.l-4 {
+  flex: 0 0 33.33333%;
+  max-width: 33.33333%; }
+
+.l-6 {
+  flex: 0 0 50%;
+  max-width: 50%; }
+
+.l-8 {
+  flex: 0 0 66.66667%;
+  max-width: 66.66667%; }
+
+.display-flex {
+  display: flex; }
+
+.align-item-center {
+  align-items: center !important; }
+
+.justify-content-start {
+  justify-content: start !important; }
+
+.justify-content-center {
+  justify-content: center !important; }
+
+.justify-content-between {
+  justify-content: space-between !important; }
+
+.justify-content-end {
+  justify-content: end !important; }
+
+.section-gap {
+  padding: 12rem 0; }
+
+.text-center {
+  text-align: center !important; }
+
+.pb-60 {
+  padding-bottom: 6rem; }
+
+.mb-10 {
+  margin-bottom: 1rem; }
+
+.mt-100 {
+  margin-top: 10rem; }
+
+#header {
+  padding: 14px 0;
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  transition: all .5s;
+  z-index: 1000; }
+
+.header-top ul li {
+  color: white;
+  margin-left: 2rem; }
+  .header-top ul li a {
+    color: white; }
+
+.header-nav ul li {
+  margin-left: 1rem; }
+  .header-nav ul li a {
+    font-size: 1.2rem;
+    color: white;
+    font-weight: 400;
+    text-transform: uppercase;
+    padding: 0 1rem; }
+  .header-nav ul li:last-child a {
+    padding: 0; }
+
+.scrolled {
+  background-color: rgba(20, 2, 0, 0.8); }
+
+.home-area {
+  background: url("../imgs/xheader-bg.jpg.pagespeed.ic.YfGrEbXWQM.jpg") center;
+  background-size: cover; }
+  .home-area .row {
+    height: 625px; }
+
+.home-content {
+  margin-top: -25rem; }
+  .home-content h6 {
+    font-weight: 600; }
+  .home-content h1 {
+    font-size: 6rem;
+    font-weight: 600;
+    margin: 2rem 0; }
+
+.about-area {
+  padding-top: 4rem;
+  padding-bottom: 10rem; }
+
+.about-left {
+  background: url("..//imgs/xvideo-bg.jpg.pagespeed.ic.9DP5dAVXlo.jpg") no-repeat center;
+  height: 35rem;
+  border-radius: 10px;
+  background-size: cover; }
+
+.about-right {
+  padding-left: 10%; }
+  .about-right h6 {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #b68834;
+    font-size: 12px; }
+  .about-right h1 {
+    padding-bottom: 2rem; }
+  .about-right p {
+    margin-bottom: 1rem; }
+  .about-right p span {
+    color: #000;
+    font-weight: 400; }
+
+.coffee-area {
+  background: url("../imgs/xmenu-bg.jpg.pagespeed.ic.xYr9qBvnG1.jpg") center;
+  background-size: cover; }
+
+.coffee-menu {
+  background-color: #fff;
+  box-shadow: 0 10px 30px 0 #b6883433;
+  border-radius: 10px;
+  padding: 30px 30px;
+  margin-bottom: 30px; }
+  .coffee-menuTitle {
+    padding-bottom: 2rem; }
+  .coffee-menuPrice {
+    color: #b68834;
+    font-size: 18px;
+    font-weight: 600; }
+
+.gallery-area img {
+  margin-bottom: 3rem; }
+
+.review-area {
+  color: white;
+  background-color: #b68834; }
+  .review-area .title {
+    margin: 2rem 0; }
+  .review-area .star {
+    margin-left: 2rem; }
+    .review-area .star .checked {
+      color: #ffa500; }
+
+.review-count h1 {
+  color: white;
+  font-size: 60px;
+  font-weight: 100; }

@@ -1,0 +1,22 @@
+.home{
+    &-area{
+        background: url("../imgs/xheader-bg.jpg.pagespeed.ic.YfGrEbXWQM.jpg") center;
+        background-size: cover;
+
+        & .row{
+            height: 625px;
+        }
+    }
+    &-content{
+        margin-top: -25rem;
+        & h6 {
+            font-weight: 600;
+        }
+
+        & h1{
+            font-size: 6rem;
+            font-weight: 600;
+            margin: 2rem 0;
+        }
+    }
+}

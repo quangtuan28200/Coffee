@@ -3,6 +3,42 @@
     position: fixed;
     left: 0;
     top: 0;
+    right: 0;
     transition: all .5s;
     z-index: 1000;
 }
+
+.header{
+    &-top{
+        & ul li{
+            color: white;
+            margin-left: 2rem;
+            & a{
+                color: white;
+            }
+        }
+    }
+
+    &-nav{
+        & ul li{
+            margin-left: 1rem;
+            & a{
+                font-size: 1.2rem;
+                color: white;
+                font-weight: 400;
+                text-transform: uppercase;
+                padding: 0 1rem;
+            }
+            &:last-child a{
+                padding: 0;
+            }
+        }
+    }
+}
+
+.scrolled{
+    background-color: rgba($color: $primary-color_dark, $alpha: .8);
+}
+
+
+

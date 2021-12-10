@@ -1,0 +1,24 @@
+.review{
+    &-area{
+        color: white;
+        background-color: $primary-color;
+        & .title{
+            margin: 2rem 0;
+        }
+
+        & .star{
+            margin-left: 2rem;
+            & .checked{
+                color: #ffa500;
+            }
+        }
+    }
+
+    &-count{
+        & h1{
+            color: white;
+            font-size: 60px;
+            font-weight: 100;
+        }
+    }
+}

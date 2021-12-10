@@ -1,0 +1,78 @@
+//base html
+html{
+    font-size: 62.5%; //1rem = 10px
+}
+
+body{
+    font-size: 1.4rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    color: $text_color;
+    line-height: 1.5;
+    -webkit-tap-highlight-color: transparent;
+}
+
+*,
+*::after,
+*::before{
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+img{
+    display: block;
+    max-width: 100%;
+}
+
+a{
+    text-decoration: none;
+    color: $text_color;
+    display: block;
+}
+
+h1,h4{
+    color: #222;
+    font-weight: 600;
+    line-height: 1.2;
+}
+
+h1{
+    font-size: 3.6rem;
+}
+
+h4{
+    font-size: 1.8rem;
+}
+
+h6{
+    font-weight: 300;
+}
+
+//text
+
+.text-white {
+    color: #fff!important;
+}
+.text-uppercase {
+    text-transform: uppercase!important;
+}
+
+//btn
+
+.primary-btn {
+    display: inline-block;
+    background-color: #fff;
+    border: 1px solid transparent;
+    color: $text-color-bold;
+    padding: 8px 40px;
+    border-radius: 50px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all .5s;
+
+    &:hover{ 
+        color: white;
+        border: 1px solid white;
+        background-color: transparent;
+    }
+}

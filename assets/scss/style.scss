@@ -1,17 +1,20 @@
 //initial
-@import "./variables";
-@import "./base";
-@import "./layout.scss";
+@import "./base/variables";
+@import "./base/base";
+@import "./base/layout.scss";
 
 //components
 @import "./components/header.scss";
-@import "./components/banner.scss";
-@import "./components/video.scss";
+
+@import "./components/home.scss";
+@import "./components/about.scss";
+@import "./components/coffee.scss";
 @import "./components/gallery.scss";
 @import "./components/review.scss";
 @import "./components/blog.scss";
+
 @import "./components/footer.scss";
 
 //responsive
-@import "./responsive.scss";
+@import "./base/responsive.scss";
 
