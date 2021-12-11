@@ -42,6 +42,19 @@ const counterAnim = (qSelector, start = 0, end, duration = 1000) => {
     window.requestAnimationFrame(step);
 };
 
+//nav-mobile
+
+const overLay = document.querySelector(".nav__bg")
+const nav_item = document.querySelector(".nav-content ul")
+const checkbox = document.querySelector("#nav__checkbox");
+
+overLay.onclick = () => {
+    checkbox.checked = false;
+}  
+
+nav_item.onclick = () => {
+    checkbox.checked = false;
+}  
 
 
 

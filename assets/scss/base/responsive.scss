@@ -1,0 +1,71 @@
+@include responsive ('ipad-horizontal'){
+    .container{
+        max-width: 960px;
+    }
+}
+
+@include responsive ('ipad-vertical'){
+    .container{
+        max-width: 720px;
+    }
+
+    .m-6{
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+
+    .m-12{
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+
+    .about{
+        &-right{
+            margin-top: 5rem;
+        }
+    }
+
+    .footer-social{
+        margin-top: 3rem;
+    }
+}
+
+@include responsive ('phone'){
+    .container{
+        max-width: unset;
+    }
+
+    .s-12{
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+
+    .nav{
+        display: block;
+    }
+
+    .header{
+        &-top, &-nav{
+            display: none;
+        }
+    }
+
+    .home{
+        &-area{
+            background-position: 25%;
+        }
+        &-content{
+            h1{
+                font-size: 4.5rem;
+            }
+        }
+    }
+
+    .review{
+        &-count{
+            & h1, p{
+                text-align: center;
+            }
+        }
+    }
+}

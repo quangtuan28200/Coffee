@@ -3,9 +3,10 @@
         background: url("../imgs/xheader-bg.jpg.pagespeed.ic.YfGrEbXWQM.jpg") center;
         background-size: cover;
 
-        & .row{
-            height: 625px;
-        }
+    }
+    &-wrap{
+        height: 625px;
+        display: flex;
     }
     &-content{
         margin-top: -25rem;

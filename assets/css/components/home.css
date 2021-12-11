@@ -1,8 +1,10 @@
 .home-area {
   background: url("../imgs/xheader-bg.jpg.pagespeed.ic.YfGrEbXWQM.jpg") center;
   background-size: cover; }
-  .home-area .row {
-    height: 625px; }
+
+.home-wrap {
+  height: 625px;
+  display: flex; }
 
 .home-content {
   margin-top: -25rem; }

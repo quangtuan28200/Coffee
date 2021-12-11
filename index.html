@@ -17,6 +17,23 @@
 </head>
 <body>
     <div class="wrapper">
+        <div class="nav">
+            <input type="checkbox" id="nav__checkbox">
+            <label class="nav__btn" for="nav__checkbox">
+                <span class="nav__icon"></span>
+            </label>
+            <div class="nav__bg"></div>
+            <nav class="nav-content">
+                <ul class="">
+                    <li class="menu-active"><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#coffee">Coffee</a></li>
+                    <li><a href="#review">Review</a></li>
+                    <li><a href="#blog">Blog</a></li>
+                </ul>
+            </nav>
+        </div>
+
         <header id="header">
             <div class="header-top">
                 <div class="container">
@@ -63,7 +80,7 @@
 
         <section class="home-area" id="home">
             <div class="container">
-                <div class="row align-item-center justify-content-start">
+                <div class="home-wrap align-item-center justify-content-start">
                     <div class="home-content">
                         <h6 class="text-white text-uppercase">Now you can feel the Energy</h6>
                         <h1 class="text-white">
@@ -80,8 +97,10 @@
         <section class="about-area" id="about">
             <div class="container">
                 <div class="row align-item-center">
-                    <div class="about-left col l-6"></div>
-                    <div class="about-right col l-6">                    
+                    <div class="about-left col l-6 m-12 s-12">
+                        <img src="./assets/imgs/xvideo-bg.jpg.pagespeed.ic.9DP5dAVXlo.jpg" alt="xbg">
+                    </div>
+                    <div class="about-right col l-6 m-12 s-12">                    
                         <h6>Live Coffee making process.</h6>
                         <h1>
                             We Telecast our 
@@ -98,7 +117,7 @@
 
         <section class="coffee-area section-gap" id="coffee">
             <div class="container">
-                <div class="row justify-content-center pb-60">
+                <div class="display-flex justify-content-center pb-60">
                     <div class="coffee-header text-center">
                         <h1 class="mb-10">What kind of Coffee we serve for you</h1>
                         <p>Who are in extremely love with eco friendly system.</p>              
@@ -106,7 +125,7 @@
                 </div>
 
                 <div class="row"> 
-                    <div class="col l-4">
+                    <div class="col l-4 m-12 s-12">
                         <div class="coffee-menu">
                             <div class="coffee-menuTitle justify-content-between display-flex">
                                 <h4>Cappuccino</h4>
@@ -116,7 +135,7 @@
                         </div>
                     </div>
 
-                    <div class="col l-4">
+                    <div class="col l-4 m-12 s-12">
                         <div class="coffee-menu">
                             <div class="coffee-menuTitle justify-content-between display-flex">
                                 <h4>Americano</h4>
@@ -126,7 +145,7 @@
                         </div>
                     </div>
 
-                    <div class="col l-4">
+                    <div class="col l-4 m-12 s-12">
                         <div class="coffee-menu">
                             <div class="coffee-menuTitle justify-content-between display-flex">
                                 <h4>Espresso</h4>
@@ -136,7 +155,7 @@
                         </div>
                     </div>
 
-                    <div class="col l-4">
+                    <div class="col l-4 m-12 s-12">
                         <div class="coffee-menu">
                             <div class="coffee-menuTitle justify-content-between display-flex">
                                 <h4>Macchiato</h4>
@@ -146,7 +165,7 @@
                         </div>
                     </div>
 
-                    <div class="col l-4">
+                    <div class="col l-4 m-12 s-12">
                         <div class="coffee-menu">
                             <div class="coffee-menuTitle justify-content-between display-flex">
                                 <h4>Mocha</h4>
@@ -156,7 +175,7 @@
                         </div>
                     </div>
 
-                    <div class="col l-4">
+                    <div class="col l-4 m-12 s-12">
                         <div class="coffee-menu">
                             <div class="coffee-menuTitle justify-content-between display-flex">
                                 <h4>Coffee Latte</h4>
@@ -166,7 +185,7 @@
                         </div>
                     </div>
 
-                    <div class="col l-4">
+                    <div class="col l-4 m-12 s-12">
                         <div class="coffee-menu">
                             <div class="coffee-menuTitle justify-content-between display-flex">
                                 <h4>Piccolo Latte</h4>
@@ -176,7 +195,7 @@
                         </div>
                     </div>
 
-                    <div class="col l-4">
+                    <div class="col l-4 m-12 s-12">
                         <div class="coffee-menu">
                             <div class="coffee-menuTitle justify-content-between display-flex">
                                 <h4>Ristretto</h4>
@@ -186,7 +205,7 @@
                         </div>
                     </div>
 
-                    <div class="col l-4">
+                    <div class="col l-4 m-12 s-12">
                         <div class="coffee-menu">
                             <div class="coffee-menuTitle justify-content-between display-flex">
                                 <h4>Affogato</h4>
@@ -201,7 +220,7 @@
 
         <section class="gallery-area section-gap" id="gallery">
             <div class="container">
-                <div class="row justify-content-center pb-60">
+                <div class="display-flex justify-content-center pb-60">
                     <div class="gallery-header text-center">
                         <h1 class="mb-10">What kind of Coffee we serve for you</h1>
                         <p>Who are in extremely love with eco friendly system.</p>              
@@ -209,7 +228,7 @@
                 </div>
 
                 <div class="row">
-                    <div class="col l-4">
+                    <div class="col l-4 m-12">
                         <a href="./assets/imgs/xg1.jpg.pagespeed.ic.hds6Doof4i.jpg" class="gallery-img">
                             <img src="./assets/imgs/xg1.jpg.pagespeed.ic.hds6Doof4i.jpg" alt="xg1">
                         </a>
@@ -218,17 +237,17 @@
                         </a>
                     </div>
 
-                    <div class="col l-8">
+                    <div class="col l-8 m-12">
                         <a href="./assets/imgs/xg3.jpg.pagespeed.ic.wWCJzlPGAr.jpg" class="gallery-img">
                             <img src="./assets/imgs/xg3.jpg.pagespeed.ic.wWCJzlPGAr.jpg" alt="xg3">
                         </a>
                         <div class="row">
-                            <div class="col l-6">
+                            <div class="col l-6 s-12">
                                 <a href="./assets/imgs/xg4.jpg.pagespeed.ic.CX0azipD2t.jpg" class="gallery-img">
                                     <img src="./assets/imgs/xg4.jpg.pagespeed.ic.CX0azipD2t.jpg" alt="xg4">
                                 </a>
                             </div>
-                            <div class="col l-6">
+                            <div class="col l-6 s-12">
                                 <a href="./assets/imgs/xg5.jpg.pagespeed.ic.3JzoX_n_ys.jpg" class="gallery-img">
                                     <img src="./assets/imgs/xg5.jpg.pagespeed.ic.3JzoX_n_ys.jpg" alt="xg5">
                                 </a>
@@ -241,7 +260,7 @@
 
         <section class="review-area section-gap" id="review">
             <div class="container">
-                <div class="row justify-content-center pb-60">
+                <div class="display-flex justify-content-center pb-60">
                     <div class="review-header text-center">
                         <h1 class="text-white mb-10">What kind of Coffee we serve for you</h1>
                         <p class="text-white">Who are in extremely love with eco friendly system.</p>              
@@ -249,7 +268,7 @@
                 </div>
 
                 <div class="row">
-                    <div class="col l-6">
+                    <div class="col l-6 s-12">
                         <img src="./assets/imgs/xr1.png.pagespeed.ic.vGMYkVBy4F.webp" alt="xr1">
                         <div class="title display-flex">
                             <h4 class="text-white">lorem ipusm</h4>
@@ -261,9 +280,9 @@
                                 <i class="fas fa-star"></i>
                             </div>
                         </div>
-                        <p class="text-white">Accessories Here you can find the best computer accessory for your laptop, monitor, printer, scanner, speaker. Here you can find the best computer accessory for your laptop, monitor, printer, scanner, speaker.</p>
+                        <p class="text-white mb-10">Accessories Here you can find the best computer accessory for your laptop, monitor, printer, scanner, speaker. Here you can find the best computer accessory for your laptop, monitor, printer, scanner, speaker.</p>
                     </div>
-                    <div class="col l-6">
+                    <div class="col l-6 s-12">
                         <img src="./assets/imgs/xr2.png.pagespeed.ic.BLOOV8t0X4.webp" alt="xr2">
                         <div class="title display-flex">
                             <h4 class="text-white">lorem ipusm</h4>
@@ -280,19 +299,19 @@
                 </div>
 
                 <div class="row mt-100 ">
-                    <div class="col l-3 review-count">
+                    <div class="col l-3 s-12 review-count">
                         <h1 id="counter1">2536</h1>
                         <p>Happy Client</p>
                     </div>
-                    <div class="col l-3 review-count">
+                    <div class="col l-3 s-12 review-count">
                         <h1 id="counter2">7562</h1>
                         <p>Total Projects</p>
                     </div>
-                    <div class="col l-3 review-count">
+                    <div class="col l-3 s-12 review-count">
                         <h1 id="counter3">2013</h1>
                         <p>Cups Coffee</p>
                     </div>
-                    <div class="col l-3 review-count">
+                    <div class="col l-3 s-12 review-count">
                         <h1 id="counter4">10536</h1>
                         <p>Total Submitted</p>
                     </div>
@@ -303,7 +322,7 @@
 
         <section class="blog-area section-gap" id="blog">
             <div class="container">
-                <div class="row justify-content-center pb-60">
+                <div class="display-flex justify-content-center pb-60">
                     <div class="blog-header text-center">
                         <h1 class="mb-10">What kind of Coffee we serve for you</h1>
                         <p>Who are in extremely love with eco friendly system.</p>              
@@ -311,7 +330,7 @@
                 </div>
 
                 <div class="row">
-                    <div class="col l-6">
+                    <div class="col l-6 s-12">
                         <img src="./assets/imgs/xb1.jpg.pagespeed.ic.06pcMTZWoN.jpg" alt="xb1">
                         <ul class="blog-tagList display-flex">
                             <li class="blog-tagItem">
@@ -327,7 +346,7 @@
                         <p class="mb-10">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
                         <p class="blog-date">31st January, 2018</p>
                     </div>
-                    <div class="col l-6">
+                    <div class="col l-6 s-12">
                         <img src="./assets/imgs/xb2.jpg.pagespeed.ic.TrRaz3pXkS.jpg" alt="xb2">
                         <ul class="blog-tagList display-flex">
                             <li class="blog-tagItem">
@@ -350,7 +369,7 @@
         <footer id="footer" class="section-gap">
             <div class="container">
                 <div class="row">
-                    <div class="col l-5">
+                    <div class="col l-5 m-6 s-12">
                         <h6>About Us</h6>
                         <p class="mb-10">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore dolore magna aliqua.</p>
                         <p class="footer-text">
@@ -360,7 +379,7 @@
                             <a href="https://colorlib.com" target="_blank">Colorlib</a>
                         </p>       
                     </div>
-                    <div class="col l-5">
+                    <div class="col l-5 m-6 s-12">
                         <h6>Newsletter</h6>
                         <p class="mb-10">Stay update with our latest</p>
                         <div class="footer-form">
@@ -372,7 +391,7 @@
                             </form>
                         </div>
                     </div>
-                    <div class="col l-2">
+                    <div class="col l-2 m-12 s-12 footer-social">
                         <h6>Follow Us</h6>
                         <p class="mb-10">Let us be social</p>
                         <div class="footer-social display-flex align-items-center">
