@@ -1,0 +1,20 @@
+.blog{
+    &-tagItem a{
+        margin: 2rem 0;
+        padding: 0.4rem 2rem;
+        font-size: 1.2rem;
+        border: 1px solid #eee;
+        border-radius: 20px;
+        font-weight: 600;
+        transition: all .3s;
+        color: $primary-color_dark;
+        &:hover{
+            color: white;
+            background-color: $primary-color;
+        }
+    }
+    &-date{
+        color: $primary-color_dark;
+        font-weight: 500;
+    }
+}

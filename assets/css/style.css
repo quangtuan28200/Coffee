@@ -1,5 +1,6 @@
 html {
-  font-size: 62.5%; }
+  font-size: 62.5%;
+  scroll-behavior: smooth; }
 
 body {
   font-size: 1.4rem;
@@ -73,6 +74,10 @@ h6 {
 .col {
   padding: 0 15px; }
 
+.l-2 {
+  flex: 0 0 16.66667%;
+  max-width: 16.66667%; }
+
 .l-3 {
   flex: 0 0 25%;
   max-width: 25%; }
@@ -80,6 +85,10 @@ h6 {
 .l-4 {
   flex: 0 0 33.33333%;
   max-width: 33.33333%; }
+
+.l-5 {
+  flex: 0 0 41.66667%;
+  max-width: 41.66667%; }
 
 .l-6 {
   flex: 0 0 50%;
@@ -225,3 +234,64 @@ h6 {
   color: white;
   font-size: 60px;
   font-weight: 100; }
+
+.blog-tagItem a {
+  margin: 2rem 0;
+  padding: 0.4rem 2rem;
+  font-size: 1.2rem;
+  border: 1px solid #eee;
+  border-radius: 20px;
+  font-weight: 600;
+  transition: all .3s;
+  color: #140200; }
+  .blog-tagItem a:hover {
+    color: white;
+    background-color: #b68834; }
+
+.blog-date {
+  color: #140200;
+  font-weight: 500; }
+
+#footer {
+  color: #fff;
+  padding-top: 220px;
+  background: url(../imgs/xfooter-bg.jpg.pagespeed.ic.DpFQyE9arU.jpg) center;
+  background-size: cover; }
+  #footer h6 {
+    font-size: 1.8rem;
+    margin-bottom: 25px;
+    font-weight: 600; }
+
+.footer-text {
+  padding-top: 2rem; }
+  .footer-text i, .footer-text a {
+    color: #b68834;
+    display: inline-block; }
+
+.footer-social a {
+  padding-right: 2.5rem;
+  color: white;
+  transition: all .3s; }
+  .footer-social a:hover {
+    color: #b68834; }
+
+.footer-form input {
+  padding: 1rem 1.8rem;
+  width: 80%;
+  outline: none;
+  border: none;
+  line-height: 1.5;
+  transition: .2s;
+  background-color: #eee;
+  float: left; }
+  .footer-form input:focus {
+    background-color: white;
+    box-shadow: 0 0 8px #ddd; }
+
+.footer-form button {
+  background-color: #b68834;
+  border: none;
+  padding: 1rem 1.8rem;
+  color: white;
+  line-height: 1.5;
+  cursor: pointer; }

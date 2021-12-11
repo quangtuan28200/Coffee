@@ -1,0 +1,61 @@
+#footer{
+    color: #fff;
+    padding-top: 220px;
+    background: url(../imgs/xfooter-bg.jpg.pagespeed.ic.DpFQyE9arU.jpg) center;
+    background-size: cover;
+
+    & h6{ 
+        font-size: 1.8rem;
+        margin-bottom: 25px;
+        font-weight: 600;
+    }
+}
+
+.footer{
+    &-text{
+        padding-top: 2rem;
+
+        & i, a{
+            color: $primary-color;
+            display: inline-block;
+        }
+    }
+
+    &-social{
+        & a{
+            padding-right: 2.5rem;
+            color: white;
+            transition: all .3s;
+            &:hover{
+                color: $primary-color;
+            }
+        }
+    }
+
+    &-form{
+        & input{
+            padding: 1rem 1.8rem;
+            width: 80%;
+            outline: none;
+            border: none;
+            line-height: 1.5;
+            transition: .2s;
+            background-color: #eee;
+            float: left;
+
+            &:focus{
+                background-color: white;
+                box-shadow: 0 0 8px #ddd;
+            }
+        }
+
+        & button{
+            background-color: $primary-color;
+            border: none;
+            padding: 1rem 1.8rem;
+            color: white;
+            line-height: 1.5;
+            cursor: pointer;
+        }
+    }
+}

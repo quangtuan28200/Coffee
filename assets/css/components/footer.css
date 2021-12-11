@@ -1,0 +1,15 @@
+#footer {
+  color: #fff;
+  padding-top: 220px;
+  background: url(../imgs/xfooter-bg.jpg.pagespeed.ic.DpFQyE9arU.jpg) center;
+  background-size: cover; }
+  #footer h6 {
+    font-size: 1.8rem;
+    margin-bottom: 25px;
+    font-weight: 600; }
+
+.footer-text {
+  padding-top: 2rem; }
+
+.footer a {
+  display: inline-block; }
